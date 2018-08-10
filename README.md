@@ -1,8 +1,10 @@
 # ngx-graph
-
 [![Join the chat at https://gitter.im/swimlane/ngx-graph](https://badges.gitter.im/swimlane/ngx-graph.svg)](https://gitter.im/swimlane/ngx-graph?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![npm version](https://badge.fury.io/js/%40swimlane%2Fngx-graph.svg)](https://badge.fury.io/js/%40swimlane%2Fngx-graph)
+[![npm downloads](https://img.shields.io/npm/dm/@swimlane/ngx-graph.svg)](https://npmjs.org/@swimlane/ngx-graph)
 
-A Graph visualization for angular
+
+#### A Graph visualization component for angular
 
 ## Demo
 https://swimlane.github.io/ngx-graph/
@@ -53,6 +55,7 @@ This library is focused on handling graph data (anything with nodes and edges) r
   <ng-template #linkTemplate let-link>
     <svg:g class="edge">
       <svg:path
+        class="line"
         stroke-width="2"
         marker-end="url(#arrow)" >
       </svg:path>
